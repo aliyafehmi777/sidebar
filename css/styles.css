@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(224, 216, 216, 0.945);
+    color: rgb(11, 124, 11);
+    line-height: 5rem;
+    height: 100%;
+    width: 120px;
+    display: inline-block;
+    padding: 2rem;
+    font-size: 1.2rem;   
+}
+#sidebar > ul {
+    display: block;
+}
+#sidebar > ul > li{
+    display: block;
+}
+#sidebar > ul > li a:hover{
+    color: rgb(245, 14, 14);
+}
