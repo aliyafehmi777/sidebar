@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 #sidebar{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: rgba(224, 216, 216, 0.945);
@@ -24,4 +24,89 @@ body{
 }
 #sidebar > ul > li a:hover{
     color: rgb(245, 14, 14);
+}
+#slider .slider .logo{
+    position: relative;
+    display: inline-block;
+}
+#slider .slider .logo > img{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.button{
+    position: relative;
+    text-align: center;
+}
+
+#section {
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+}
+#section .button{
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+}
+#section .button .btn-wrapper{
+    position: relative;
+    display: inline-block;
+}
+#section .button .btn-wrapper .btn-heading{
+    display: inline-block;
+    width: 45%;
+}
+#section .button .btn-wrapper .btn-heading > h2{
+    position: absolute;
+    left: 35%;
+    display: inline-block;
+    width: 100%;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #b50505;
+    line-height: 3rem;
+}
+#section .button .btn-wrapper .btns-btn{
+    position: relative;
+    margin: 6rem;
+    text-align: center;
+    left: 35%;
+    line-height: 4rem;
+    width: 80%;
+    display: inline-block;
+}
+#section .btn-wrapper .btns-btn .btn{
+    background-color: #4c4040;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+}
+#section .button .btn-wrapper .btns-btn .btn-primary{
+    background-color: #28812a;
+    color: #ffffff;
+    border: 2px solid #216623;
+}
+#section .button .btn-wrapper .btns-btn .btn-secondary{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #352e2e;
+}
+#section .button .btn-wrapper .btns-btn .btn-danger{
+    background-color: #e00c0c;
+    color: #ffffff;
+    border: 2px solid #b50505;
 }
